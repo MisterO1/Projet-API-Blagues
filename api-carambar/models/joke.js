@@ -1,10 +1,23 @@
-module.exports = (sequelize, DataTypes) => {
-    const Joke = sequelize.define('Joke', {
-        content: {
-            type: DataTypes.STRING,
-            allowNull: false
-        }
-    });
+'use strict';
+const { Model } = require('sequelize');
 
-    return Joke;
-}
+module.exports = (sequelize, DataTypes) => {
+  class Joke extends Model {}
+
+  Joke.init({
+    question: {
+      type: DataTypes.STRING,
+      allowNull: false
+    },
+    answer: {
+      type: DataTypes.STRING,
+      allowNull: false
+    }
+  }, {
+    sequelize,
+    modelName: 'Joke',
+    tableName: 'Jokes'
+  });
+
+  return Joke;
+};

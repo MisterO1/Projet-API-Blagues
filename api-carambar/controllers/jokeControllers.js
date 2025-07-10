@@ -3,12 +3,13 @@ const { Joke } = require('../models');
 // Function to add a new joke
 exports.addJoke = async (req, res) => {
     try {
-        const { content } = req.body;
-        if (!content) {
-            return res.status(400).json({ error: 'Content is required' });
+        console.log('Adding a new joke:', req.body);
+        const { question, answer } = req.body;
+        if (!question || !answer) {
+            return res.status(400).json({ error: 'Question and answer are required' });
         }
 
-        const joke = await Joke.create({ content });
+        const joke = await Joke.create({ question, answer });
         res.status(201).json(joke);
     } catch (error) {
         console.error('Error adding joke:', error);
@@ -55,6 +56,17 @@ exports.getRandomJoke = async (req, res) => {
         res.status(200).json(joke);
     } catch (error) {
         console.error('Error fetching random joke:', error);
+        res.status(500).json({ error: 'Internal server error' });
+    }
+}
+
+// delete all jokes
+exports.deleteAllJokes = async (req, res) => {
+    try {
+        await Joke.destroy({ where: {} });
+        res.status(204).send();
+    } catch (error) {
+        console.error('Error deleting jokes:', error);
         res.status(500).json({ error: 'Internal server error' });
     }
 }

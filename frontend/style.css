@@ -22,6 +22,17 @@ main {
   min-height: 3em;
 }
 
+#question {
+  font-size: 1.4rem;
+  margin: 1rem 0;
+}
+
+#answer {
+  font-weight: bold;
+  color: #d62828;
+}
+
+
 button {
   background-color: #ffcc00;
   border: none;
