@@ -8,28 +8,18 @@
  *         - question
  *         - answer
  *       properties:
- *         id:
- *           type: integer
- *           description: ID auto-généré
  *         question:
  *           type: string
  *         answer:
  *           type: string
- *         createdAt:
- *           type: string
- *           format: date-time
- *         updatedAt:
- *           type: string
- *           format: date-time
-
  * tags:
- *   name: Jokes
- *   description: API des blagues Carambar
+ *   name: Blagues
+ *   description: API des blagues Carambar & Co
  */
 
 /**
  * @swagger
- * /jokes:
+ * /api/v1/jokes:
  *   get:
  *     summary: Retourne la liste des blagues
  *     tags: [Blagues]
@@ -48,7 +38,7 @@
 
 /**
  * @swagger
- * /jokes/random:
+ * /api/v1/jokes/random:
  *   get:
  *     summary: Récupère une blague aléatoire
  *     tags: [Blagues]
@@ -65,7 +55,7 @@
 
 /**
  * @swagger
- * /jokes/{id}:
+ * /api/v1/jokes/{id}:
  *   get:
  *     summary: Récupère une blague par ID
  *     tags: [Blagues]
@@ -91,7 +81,7 @@
 
 /**
  * @swagger
- * /jokes:
+ * /api/v1/jokes:
  *   post:
  *     summary: Ajoute une nouvelle blague
  *     tags: [Blagues]
