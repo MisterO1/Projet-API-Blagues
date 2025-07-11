@@ -1,0 +1,51 @@
+# 🎯 Projet Carambar & Co – API & Front Blagues
+
+## 📄 Description
+
+Mini application web permettant d’afficher des blagues Carambar aléatoires via une API développée en Node.js avec Express, Sequelize et SQLite.
+
+---
+
+## 📁 Repos GitHub
+
+* **Frontend (Landing page)** : [https://mistero1.github.io/Projet-API-Blagues/frontend/](https://mistero1.github.io/Projet-API-Blagues/frontend/)
+* **Backend (API Express)** : [https://github.com/ton-pseudo/api-carambar](https://github.com/ton-pseudo/api-carambar)
+
+---
+
+## 🌐 Lien vers l’API déployée
+
+* **Base URL** : [https://api-carambar.onrender.com/api/v1](https://api-carambar.onrender.com/api/v1)
+
+---
+
+## 📘 Documentation API (Swagger)
+
+* [https://api-carambar.onrender.com/api-docs](https://api-carambar.onrender.com/api-docs)
+
+---
+
+## 🚀 Endpoints disponibles
+
+| Méthode | Endpoint             | Description                    |
+| ------- | -------------------- | ------------------------------ |
+| POST    | /api/v1/jokes        | Ajouter une nouvelle blague    |
+| GET     | /api/v1/jokes        | Récupérer toutes les blagues   |
+| GET     | /api/v1/jokes/\:id   | Récupérer une blague par ID    |
+| GET     | /api/v1/jokes/random | Récupérer une blague aléatoire |
+
+---
+
+## 🛠️ Stack technique
+
+* Node.js
+* Express
+* Sequelize ORM
+* SQLite
+* Swagger UI
+* Déploiement :
+
+  * Backend : [Render.com](https://render.com)
+  * Frontend : GitHub Pages
+
+---

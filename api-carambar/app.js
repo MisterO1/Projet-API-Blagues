@@ -6,7 +6,8 @@ const cors = require('cors');
 
 app.use(cors());
 app.use(express.json()); // Middleware to parse JSON request bodies
-app.use('/api/v1/blagues', jokeRoutes); 
+app.use('/api/v1/jokes', jokeRoutes);
+
 swaggerConfig(app); // Configuration de Swagger pour la documentation de l'API
 
 module.exports = app;
