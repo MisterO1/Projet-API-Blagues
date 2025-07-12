@@ -8,20 +8,20 @@ Mini application web permettant d’afficher des blagues Carambar aléatoires vi
 
 ## 📁 Repos GitHub
 
-* **Frontend (Landing page)** : [https://mistero1.github.io/Projet-API-Blagues/frontend/](https://mistero1.github.io/Projet-API-Blagues/frontend/)
-* **Backend (API Express)** : [https://github.com/ton-pseudo/api-carambar](https://github.com/ton-pseudo/api-carambar)
+* **Frontend (Landing page)** : [https://mistero1.github.io/Projet-API-Blagues/frontend/]
+* **Backend (API Express)** : [https://mistero1.github.io/Projet-API-Blagues/api-carambar]
 
 ---
 
-## 🌐 Lien vers l’API déployée
+## 🌐 Lien vers l’API déployée sur render
 
-* **Base URL** : [https://api-carambar.onrender.com/api/v1](https://api-carambar.onrender.com/api/v1)
+* **Base URL** : [https://projet-api-carambar.onrender.com/api/v1]
 
 ---
 
 ## 📘 Documentation API (Swagger)
 
-* [https://api-carambar.onrender.com/api-docs](https://api-carambar.onrender.com/api-docs)
+* [https://projet-api-carambar.onrender.com/api-docs]
 
 ---
 
@@ -31,7 +31,7 @@ Mini application web permettant d’afficher des blagues Carambar aléatoires vi
 | ------- | -------------------- | ------------------------------ |
 | POST    | /api/v1/jokes        | Ajouter une nouvelle blague    |
 | GET     | /api/v1/jokes        | Récupérer toutes les blagues   |
-| GET     | /api/v1/jokes/\:id   | Récupérer une blague par ID    |
+| GET     | /api/v1/jokes/:id    | Récupérer une blague par ID    |
 | GET     | /api/v1/jokes/random | Récupérer une blague aléatoire |
 
 ---
