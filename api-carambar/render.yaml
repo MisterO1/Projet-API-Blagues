@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: projet-api-carambar
+    runtime: node
+    repo: https://github.com/MisterO1/Projet-API-Blagues/api-carambar
+    branch: master
+    region: oregon
+    plan: free
+    buildCommand: |
+      npm install
+      npx sequelize-cli db:migrate
+      npx sequelize-cli db:seed:all
+    startCommand: node server.js
+    envVars:
+      - key: PORT
+        value: 3000
+    autoDeploy: true
