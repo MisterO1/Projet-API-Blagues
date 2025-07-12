@@ -62,6 +62,66 @@ module.exports = {
         answer: "C’est de perdre la boule",
         createdAt: new Date(),
         updatedAt: new Date()
+      },
+      {
+        question: "Pourquoi les plongeurs plongent-ils toujours en arrière et jamais en avant ?",
+        answer: "Parce que sinon ils tombent dans le bateau.",
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        question: "Que fait une fraise sur un cheval ?",
+        answer: "Tagada tagada.",
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        question: "Pourquoi les squelettes ne se battent jamais entre eux ?",
+        answer: "Ils n’ont pas le cœur à ça.",
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        question: "Quel est le comble pour un électricien ?",
+        answer: "De ne pas être au courant.",
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        question: "Pourquoi les oiseaux ne tweetent-ils jamais la nuit ?",
+        answer: "Parce qu’ils dorment.",
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        question: "Quel est l’arbre préféré du chien ?",
+        answer: "Le sapin… waff !",
+        createdAt: new Date(),
+        updatedAt: new Date() 
+      },
+      {
+        question: "Comment appelle-t-on un chat qui a travaillé dur ?",
+        answer: "Un cat-apulte.",
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        question: "Pourquoi les tomates n’aiment-elles pas discuter ?",
+        answer: "Parce qu’elles finissent toujours en purée.",
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        question: "Quel est le comble pour un plombier ?",
+        answer: "De ne jamais être raccord.",
+        createdAt: new Date(),
+        updatedAt: new Date()
+      },
+      {
+        question: "Que dit une tasse à une autre tasse ?",
+        answer: "Tu es dé-café-inée !",
+        createdAt: new Date(),
+        updatedAt: new Date()
       }
     ]);
   },
