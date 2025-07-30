@@ -2,20 +2,13 @@
 
 ## 📄 Description
 
-Mini application web permettant d’afficher des blagues Carambar aléatoires via une API développée en Node.js avec Express, Sequelize et SQLite.
+Mini application web permettant d’afficher des blagues aléatoires sur le quotidien de développeurs via une API développée en Node.js avec Express, Sequelize et SQLite.
 
 ---
 
 ## 📁 Repos GitHub
 
-* **Frontend (Landing page)** : [https://mistero1.github.io/Projet-API-Blagues]
-* **Backend (API Express)** : [https://mistero1.github.io/Projet-API-Blagues/api-carambar]
-
----
-
-## 🌐 Lien vers l’API déployée sur render
-
-* **Base URL** : [https://projet-api-carambar.onrender.com/api/v1]
+* **Frontend (Landing page deployé avec github page)** : [https://mistero1.github.io/Projet-API-Blagues]
 
 ---
 
