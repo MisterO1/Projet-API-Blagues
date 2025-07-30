@@ -14,7 +14,7 @@
  *           type: string
  * tags:
  *   name: Blagues
- *   description: API des blagues Carambar & Co
+ *   description: API des blagues Quotidien de devs
  */
 
 /**

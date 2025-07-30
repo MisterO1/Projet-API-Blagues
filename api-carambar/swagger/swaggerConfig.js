@@ -5,15 +5,15 @@ const options = {
     definition : {
         openapi: '3.0.0',
         info: {
-            title: 'API de blagues Carambar & Co',
+            title: 'API de blagues Quotidien de devs',
             version: '1.0.0',
-            description: 'Documentation de l\'API pour gérer les blagues Carambar & Co',
+            description: 'Documentation de l\'API pour gérer les blagues Quotidien de devs',
         }
     },
     apis : ['./routes/*.js'], // Chemin vers les fichiers de routes
 }
 
-const specs = swaggerJSDoc(options); // Génération de la documentation Swagger
+const specs = swaggerJSDoc(options); // Lecture et génération de la documentation Swagger
 
 // Exportation de la configuration Swagger
 module.exports = (app) => {
