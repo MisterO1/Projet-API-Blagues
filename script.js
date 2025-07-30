@@ -3,8 +3,8 @@ const container = document.getElementById("blague-container");
 const question = document.getElementById("question");
 const answer = document.getElementById("answer");
 
-// const API_URL = "https://projet-api-blagues.onrender.com/api/v1/jokes/random";
-const API_URL = "http://localhost:3000/api/v1/jokes/random"; // Local development URL
+const API_URL = "https://projet-api-blagues.onrender.com/api/v1/jokes/random";
+// const API_URL = "http://localhost:3000/api/v1/jokes/random"; // Local development URL
 
 async function getRandomJoke() {
   try {
