@@ -8,7 +8,11 @@ const options = {
             title: 'API de blagues Quotidien de devs',
             version: '1.0.0',
             description: 'Documentation de l\'API pour gérer les blagues Quotidien de devs',
-        }
+        },
+        servers: [{
+            url: process.env.BASE_URL || 'http://localhost:3000',
+            description: 'Serveur API'
+        }]
     },
     apis : ['./routes/*.js'], // Chemin vers les fichiers de routes
 }
